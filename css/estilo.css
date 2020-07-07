@@ -1,0 +1,81 @@
+body{ 
+    background-image: url(https://lacuina.cl/images/bg_top_img.jpg);
+    background-attachment: fixed;
+    font-family: cursive;
+} 
+
+.container{
+    border-style: groove;
+    width: 800px;
+    margin: 5px;
+    padding: 5px;
+    border-width: 10px;
+    border-color: gray;
+}
+
+.container1{
+    margin: 5px;
+    padding: 5px;
+}
+
+ol{
+    list-style:outside;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(255, 227, 65);
+}   
+
+ul.a{
+    list-style-type: circle;
+    font-size: 20px;
+    color: white;
+}
+ul.b {
+    list-style-type: square;
+    font-size: 20px;
+    color: white;
+}
+
+section{
+    color: white;
+    font-size: 20px;
+    word-spacing: 10px
+}
+
+section section {
+    color: white;
+    font-size: 20px;
+}
+
+section section section{
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    color: gold;
+    font-size: 45px;
+}
+
+section:hover{
+    color:gold;
+}
+section section:hover{
+    color: greenyellow;
+}
+section section section:hover{
+    color: aqua;
+}
+
+
+
+
+#image1 img {
+    margin: 15px;
+    width: 500px;
+    padding: 15px 15px 15px 15px;
+    background-color: gray;
+    Border-color: red;
+    Border-width: 10px;
+    border-style: groove;
+}
